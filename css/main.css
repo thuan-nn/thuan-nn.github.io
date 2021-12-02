@@ -267,7 +267,7 @@ img.icon {
 
 .profile {
   background-color: #dfe0db 45%;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #dfe0db), color-stop(45%, #fcebe1));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(45%,#cce6ff), color-stop(45%, #cce6ff));
   background-image: linear-gradient(top, #dfe0db 45%, #fcebe1 45%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#dfe0db 45%', endColorStr='#fcebe1 45%');
   width: 1170px;
