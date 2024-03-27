@@ -1,330 +1,306 @@
-<!doctype html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv="Content-Language" content="en-us" />
-    <title>Profile - NGUYEN NHAT THUAN</title>
+    <title>NGUYEN NHAT THUAN - CV</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta property="og:title" content="Profile - NGUYEN NHAT THUAN" />
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="Learn more about me ?" />
-    <link rel="icon" href="./images/icon/t.png" type="image/icon type">
-    <!--font google-->
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;display=swap"
+          rel="stylesheet">
+    <link rel="icon" href="../cv/images/icon/t.png" type="image/icon type">
+    <style>.block__info .block__info__content p, .header h3, .header p {
+        margin-bottom: 5px
+    }
 
+    a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block
+    }
+
+    body {
+        line-height: 1;
+        width: 1170px;
+        margin: auto;
+        padding: 50px 40px;
+        background-color: #fff;
+        font-family: Montserrat, sans-serif
+    }
+
+    ol, ul {
+        list-style: none
+    }
+
+    blockquote, q {
+        quotes: none
+    }
+
+    blockquote:after, blockquote:before, q:after, q:before {
+        content: "";
+        content: none
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0
+    }
+
+    *, :after, :before {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box
+    }
+
+    .header {
+        text-align: center;
+        border-bottom: 1px solid #000;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 16px
+    }
+
+    .header h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #333
+    }
+
+    .header a {
+        color: #000
+    }
+
+    section h4.title {
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        margin: 20px 0;
+        text-transform: uppercase;
+        color: #333
+    }
+
+    .block__info {
+        margin-bottom: 20px
+    }
+
+    .block__info .block__info__top {
+        display: flex;
+        margin-bottom: 10px
+    }
+
+    .block__info .block__info__top b {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #333;
+        line-height: 1.5;
+        margin-right: 20px
+    }
+
+    .block__info .block__info__top span {
+        margin-left: auto;
+        font-style: italic;
+        line-height: 1.5;
+        color: #666
+    }
+
+    .block__info .block__info__content {
+        font-size: 16px;
+        line-height: 1.5
+    }
+
+    .block__info .block__info__content.block__flex {
+        display: flex;
+        align-content: center;
+    }
+
+    .block__info .block__info__content.block__flex ul {
+        flex: 1 1 calc(100% / 3);
+    }
+
+    .block__info .block__info__content .text-summary {
+        text-align: justify
+    }
+
+    .block__info .block__info__content small {
+        display: block;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 600;
+        color: #3c3c3c;
+        margin-bottom: 5px
+    }
+
+    .block__info .block__info__content ul {
+        padding-left: 50px;
+        margin-bottom: 10px
+    }
+
+    .block__info .block__info__content ul li {
+        list-style: disc;
+        line-height: 1.5
+    }
+
+    @media screen and (max-width: 768px) {
+        body {
+            width: 100%;
+            padding: 30px
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        body {
+            width: 100%;
+            padding: 15px
+        }
+
+        .block__info .block__info__content, .header {
+            font-size: 14px
+        }
+
+        .header h3 {
+            font-size: 16px
+        }
+
+        section h4.title {
+            font-size: 16px;
+            margin: 20px 0
+        }
+
+        .block__info .block__info__content ul {
+            padding-left: 20px
+        }
+    }</style>
 </head>
-
 <body>
-    <!---------MAIN PROFILE-------->
-    <section id="profile" class="profile">
-        <div class="profile__main">
-            <!--BLOCK LEFT-->
-            <div class="profile__main__left">
+<header class="header" id="header">
+    <h3>NGUYEN NHAT THUAN</h3>
+    <p>nguyennhatthuan3011@gmail.com | 0837600997</p>
+    <a href="https://www.linkedin.com/in/thuan-nn/" target="_blank">linkedin.com/in/thuan-nn</a>
+</header>
 
-                <!--Image-->
-                <div class="my__image">
-                    <h3>NGUYEN NHAT THUAN</h3>
-                    <span>Back-End Developer</span>
-                    <img src="./images/image-profile.jpg" id="my-picture" alt="my-picture">
-                </div>
+<main class="main" id="main">
+    <!--SUMMARY-->
+    <section>
+        <h4 class="title">SUMMARY</h4>
 
-                <!--Contact-->
-                <div class="my__contact">
-                    <!-- <h5 class="title__common">
-                        Contact
-                        <a href="./images/profile.pdf" target="_blank" class="btn-download">Download CV</a>
-                    </h5> -->
-
-                    <ul class="list__icon__common">
-                        <li>
-                            <div class="box">
-                                <img src="./images/icon/icon-home.svg" class="icon" alt="home">
-                            </div>
-                            <a href="#">District 10, HCM City</a>
-                        </li>
-                        <li>
-                            <div class="box">
-                                <img src="./images/icon/icon-mail.svg" class="icon" alt="mail">
-                            </div>
-                            <a href="mailto:nguyennhatthuan3011@gmail.com">nguyennhatthuan3011@gmail.com</a>
-                        </li>
-                        <li>
-                            <div class="box">
-                                <img src="./images/icon/icon-tv.svg" class="icon" alt="tv">
-                            </div>
-                            <a href="https://github.com/thuan-nn" target="blank">github.com/thuan-nn</a>
-                        </li>
-                        <li>
-                            <div class="box">
-                                <img src="./images/icon/icon-phone.svg" class="icon" alt="phone">
-                            </div>
-                            <a href="#">083 760 0997</a>
-                        </li>
-                    </ul>
-
-                    <p class="desc__common">
-                        With an aim of becoming a senior back-end developer in the next 2 years, I am gaining more
-                        knowledge. Specifically as,<br>
-                        <span>- Developing skills in work time management and coding</span> <br>
-                        <span>- Learning new technology and learning more about another programming language
-                        </span> <br>
-                        <span>- Working hard with servers to gain more experience with nginx
-                        </span>
-                    </p>
-                </div>
-            </div>
-
-            <!--BLOCK RIGHT-->
-            <div class="profile__main__right">
-
-                <!--Capabilities / Skill-->
-                <div class="my__capabilities">
-                    <h5 class="title__common">Capabilities / Skill</h5>
-
-                    <div class="soft__skill">
-                        <h5>Personal</h5>
-
-                        <div class="soft__skill__col">
-                            <ul>
-                                <li><b>Linux</b></li>
-                                <li><b>GIT / Gitflow</b></li>
-                                <li><b>AWS</b></li>
-                                <li><b></b></li>
-                            </ul>
-                            <ul>
-                                <li><b>PHP-Laravel</b></li>
-                                <li><b>RESTful APIs</b></li>
-                                <li><b>HTML/CSS/JS</b></li>
-                                <li><b></b></li>
-                            </ul>
-                            <ul>
-                                <li><b>MySQL</b></li>
-                                <li><b>Docker (basic)</b></li>
-                                <li><b>Apache/Nginx</b></li>
-                                <li><b></b></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Experience-->
-                <div class="my__exp">
-                    <h5 class="title__common">Experience</h5>
-
-                    <h5 style="margin-top: 30px; font-size: 20px; font-weight: bold;">BCM VENTURE INTEGRATED ( BCM Solutions) | 04/2022 - Present</h5>
-                    <span>Back-End Developer</span>
-                    <ul class="timeline">
-                        <!-- Eraweb -->
-                        <li>
-                            <div class="period">
-                                <span>01/2022 <br> - <br> NOW</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Build ecommerce website to sell beer
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Database design, identify relationships between the tables in the database.</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Use RESTful API to build CMS to manage products, orders, payments</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Building online payment features (banking, momo)</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 7</p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="period">
-                                <span>07/2022 <br> - <br> 12/2022</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Build website about event photo and video review contest
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Using RESTful API to build CMS manage manage the number of shares on facebook, summarize the winners</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 5</p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="period">
-                                <span>04/2022 <br> - <br> 6/2022</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Create a website for the resort in Vietnam
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Build webiste has multiple language</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Resort booking feature manages availability and informs users</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 2</p>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <!-- gumi time -->
-                    <h5 style="margin-top: 30px; font-size: 20px; font-weight: bold;">gumi Vietnam JSC | 07/2019 - 03/2022</h5>
-                    <span>Back-End Developer</span>
-                    <ul class="timeline">
-                        <!-- Eraweb -->
-                        <!-- <li>
-                            <div class="period">
-                                <span>07/2021 <br> - <br> 03/2022</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Build websites for some small campaigns in Japan
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Using RESTful API to build system</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Database design, identify relationships between the tables in the database.</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Deploy applications via automation tools.</p>
-                            </div>
-                        </li> -->
-
-                        <!-- Eraweb -->
-                        <li>
-                            <div class="period">
-                                <span>04/2021 <br> - <br> 07/2021</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Build a website that allows people to enter the contest by posting pictures and articles about Japan
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Using facebook API to share articles of contestants</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Database design, identify relationships between the tables in the database.</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Use RESTful API to build CMS to manage contest entries and count shares of submitted entries</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 5</p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="period">
-                                <span>03/2021 <br> - <br> 10/2020</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Building a website for product introduction, blog and factory visit registration
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Using laravel to build multi-level menus</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Using RESTful API to build CMS to manage articles, create tours, and number of visitors</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 12</p>
-                            </div>
-                        </li>
-
-                        <!-- Freelancer -->
-                        <li>
-                            <div class="period">
-                                <span>03/2020 <br> - <br> 10/2020</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Building an system to manage gifts and consumer's purchase points of Hitachi JP
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Using RESTful API to build CMS manage gifts, users, score calculation</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Building an API for a system of points for purchasing, accumulating points and receiving gifts on mobile applications</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 7</p>
-                            </div>
-                        </li>
-
-                        <!-- Gumi vietnam -->
-                        <li>
-                            <div class="period">
-                                <span>07/2019 <br> - <br> 03/2020</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Building a system to manage students and organize recruitment events, companies in Japan
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Using RESTful API to build system for students</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Using laravel blade to build system for admin to manage organize recruitment events, companies, students</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Transfer data from Postgresql to MySql</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 10</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-
-                <div class="my__edu">
-                    <h5 class="title__common">Freelancer</h5>
-
-                    <ul class="timeline">
-                        <!-- University -->
-                        <li>
-                            <div class="period">
-                                <span>04/2022 <br> - <br> 06/2022</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Building a system to manage the warehouse for furniture
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Database design, identify relationships between the tables in the database.</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Managing import and export of furniture department</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Manage the status when shipping goods through each stage</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 5</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="period">
-                                <span>02/2022 <br> - <br> 03/2023</span>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Make an introductory website for a psychiatric clinic
-                                </p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Database design, identify relationships between the tables in the database.</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Manage articles and information of the website</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Display saved information off-site for users to see</p>
-                                <p style="text-indent: -13px; padding-left: 25px;">&#9702; Team Size: 2</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <!--Education-->
-                <div class="my__edu">
-                    <h5 class="title__common">Education</h5>
-
-                    <ul class="timeline">
-                        <!-- University -->
-                        <li>
-                            <div class="period">
-                                <span>2015 <br> - <br> 2019</span>
-                            </div>
-                            <div class="content">
-                                <h5>Information System (Major)</h5>
-                                <span>University of Information Technology VNU-HCM</span>
-                                <p>
-                                    Practised all basic skills of program<br>
-                                    Learned soft skills from experience people <br>
-                                    Had target to develop myself
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+        <div class="block__info">
+            <div class="block__info__content">
+                <p class="text-summary">I am a PHP developer with five years of experience of developing, designing and
+                    implementing websites.
+                    Focused on open source including Apache, Nginx, Linux, MySQL, PHP, Laravel Framework, and principles
+                    such as SOLID, MVC Architecture.
+                    Proud to have a solid background in building, maintaining systems and migration of legacy code to
+                    new architecture.
+                    I am able to work independently and collaboratively within a team, I am eager to learn and integrate
+                    suggestions from colleagues to look for ways to enhance
+                    my skills and broaden my expertises. I am open for a PHP backend developer job and look for an
+                    opportunity to work with frontend framework.</p>
             </div>
         </div>
     </section>
 
-    <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]-->
+    <main>
+        <!--SUMMARY-->
+        <section>
+            <h4 class="title">TECHNICAL SKILLS</h4>
 
-    <script src="./js/vendor/jquery-3.4.1.min.js"></script>
-    <!-- Main Script -->
-    <script src="./js/home.bundle.js"></script>
+            <div class="block__info">
+                <div class="block__info__content block__flex">
+                    <ul>
+                        <li>Linux</li>
+                        <li>Git/Gitflow</li>
+                        <li>Apache/Nginx</li>
+                    </ul>
+                    <ul>
+                        <li>PHP-Laravel</li>
+                        <li>RESTful API</li>
+                        <li>HTML/CSS/JS (basic)</li>
+                    </ul>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Docker (basic)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
+        <!--PROFESSIONAL EXPERIENCE-->
+        <section>
+            <h4 class="title">EXPERIENCE</h4>
+
+            <div class="block__info">
+                <div class="block__info__top">
+                    <b>BCM Venture Integrated</b>
+                    <span>2022-now</span>
+                </div>
+
+                <div class="block__info__content">
+                    <small>Backend Developer</small>
+                    <ul class="desc_detail">
+                        <li>Built an ecommerce website and system to manage all of the content on the website.</li>
+                        <li>Designed database of an ecommerce website, researched and optimised performance of
+                            queries.
+                        </li>
+                        <li>Developed backend tasks for several campaigns involving lucky draw games.</li>
+                        <li>Built docker, deployed code to server.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="block__info">
+                <div class="block__info__top">
+                    <b>gumi Vietnam JSC</b>
+                    <span>2019-2022</span>
+                </div>
+
+                <div class="block__info__content">
+                    <small>Backend Developer</small>
+                    <ul class="desc_detail">
+                        <li>Built systems to manage gifts, score calculation and APIs to help users earning points,
+                            receiving and redeeming gifts on mobile applications.
+                        </li>
+                        <li>Built systems to manage and stream advertising videos in every city across Japan.</li>
+                        <li>Maintained websites to find jobs and connect students with companies in Japan and manage the
+                            timeline of events, companies and students information.
+                        </li>
+                        <li>Clarified requirements and designed databases with leaders in every project.</li>
+                        <li>Designed database, configured servers, deployed source code.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--EDUCATION-->
+        <section>
+            <h4 class="title">EDUCATION</h4>
+
+            <div class="block__info">
+                <div class="block__info__top">
+                    <b>University Of Information Technology</b>
+                    <span>2019</span>
+                </div>
+
+                <div class="block__info__content">
+                    <p>Information System</p>
+                    <ul>
+                        <li>Basically learn programing, OOP, data structures and algorithms.</li>
+                        <li>Mainly learn SQL relationship, deadlock and transaction.</li>
+                        <li>Built small projects with my friends across different subjects grants me experience in
+                            working with various teammates.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
-
 </html>
